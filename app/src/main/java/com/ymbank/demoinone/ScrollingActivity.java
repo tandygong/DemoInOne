@@ -41,7 +41,7 @@ public class ScrollingActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
-                Log.d("aaa", "bbb");
+                Log.d("aaa", "bbbccc");
             }
         });
     }
