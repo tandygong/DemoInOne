@@ -10,6 +10,7 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.util.Log;
 import android.view.View;
 
 import com.ymbank.demoinone.databinding.ActivityMainBinding;
@@ -40,6 +41,7 @@ public class ScrollingActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
+                Log.d("aaa", "bbb");
             }
         });
     }
